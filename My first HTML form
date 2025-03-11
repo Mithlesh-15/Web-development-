@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM </title>
+</head>
+
+<body>
+  <h1> Registration Form</h1>
+  <form>
+    <label for="first" > First Name : </label>
+    <input type="text" id="first" placeholder="Enter first name" >
+    <br>
+    <label for="last"> Last Name : </label>
+    <input type="text" id="last" placeholder="Enter last name">
+    <br>
+    <label for="email">Email : </label>
+    <input type="text" id="email" placeholder="Enter email address">
+    <br>
+    <label for="pass">Passwoed : </label>
+    <input type="password" id="pass">
+    <br>
+    <label for="gender">Gender :</label>
+    <br>
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" id="other" name="gender">
+    <label for="other">Other</label>
+    <br>
+    <label for="age">Age :</label>
+    <input type="number" id="age">
+    <br>
+    <label> Preferences : </label>
+    <br>
+    <label for="ap">Acrylic Painting</label>
+    <input type="checkbox" id="ap">
+    <br>
+    <label for="op">Oil Painting</label>
+    <input type="checkbox" id="op">
+    <br>
+    <label for="wcp">Water Color Painting</label>
+    <input type="checkbox" id="wcp">
+    <br>
+    <label for="select"> Select Occupation</label>
+    <select>
+      <option value="Select">Select</option>
+      <option value="Civil Engineer">Civil Engineer</option>
+      <option value="Mechanical Engineer">Mechanical Engineer</option>
+      <option value="Electrical Engineer">Electrical Engineer</option>
+      <option value="Robotics Technician">Robotics Technician</option>
+    </select>
+    <br>
+    <label for="textarea">Bio</label>
+      <textarea id="textarea" >Enter some about your self</textarea>
+    <br>
+    <input type="reset">
+    <input type="submit">
+  </form>
+</body>
+
+</html>

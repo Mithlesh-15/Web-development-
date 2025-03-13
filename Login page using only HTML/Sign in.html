@@ -1,0 +1,55 @@
+(file name : Sign in.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+</head>
+<body>
+  <h3>You can create your account hare</h3>
+  <form>
+    <label>Name :</label>
+    <br>
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Last Name">
+    <br>
+    <label for="DOB">Date Of Birth</label>
+    <br>
+    <input type="date" id="DOB" >
+    <br>
+    <label for="gender">Gender : </label>
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female">
+    <label for="Other">Other</label>
+    <input type="radio" name="gender" id="Other">
+    <br>
+    <label for="emali">Email :</label>
+    <br>
+    <input type="email" id="email" placeholder="ex : example@example.com" required>
+    <br>
+    <label for="phone">Phone Number :</label>
+    <br>
+    <input type="number" id="phone" required>
+    <br>
+    <br>
+    <label for="address">Address :</label>
+    <textarea id="address"></textarea>
+    <br>
+    <label for="pass">Password : </label>
+    <input type="password" id="pass" required>
+    <br>
+    <input type="checkbox" id="check" required>
+    <label for="check">I am agree with Turms and conditions</label>
+    <br>
+    <a href="Login.html">
+      <button type="submit">Sign in</button>
+    </a>
+    <input type="reset">
+  </form>
+</body>
+</html>

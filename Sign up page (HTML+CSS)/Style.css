@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin : 0px;
+  padding: 0px;
+}
+body{
+  background-color: #A6B4FF;
+}
+.d2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.d3{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  height: 60vh;
+  border-radius: 20px;
+}
+.sign-ke-niche{
+  color: #adadad;
+  font-size: 9px;
+}
+.google{
+  margin-top:5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 30px;
+  border-radius: 50vh;
+  border: 2px solid black ;
+}
+img{
+  
+  margin: 3px;
+  width: 4vh;
+}
+.or{
+  margin-top: 10px;
+  color: #adadad;
+  font-size: 10px;
+}
+label{
+  font-size: 10px;
+  color: #adadad;
+}
+a{
+  margin: 5px;
+  text-decoration: none;
+  color: #adadad;
+}
+.sign{
+  color: #006fff;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #0000ff ;
+  outline: none;
+}
+input::after{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #0000ff ;
+  outline: none;
+}
+.sign-in{
+  border: none;
+  width: 100%;
+  height: 7vh;
+  border-radius: 50vh;
+  margin-top: 5px;
+  background-color: #1F51FF;
+}
+.sign-in:hover{
+  border: none;
+  width: 100%;
+  height: 7vh;
+  border-radius: 50vh;
+  margin-top: 5px;
+  background-color: #00CCCC;
+}

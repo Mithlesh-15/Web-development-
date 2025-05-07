@@ -1,1 +1,41 @@
+@media screen and (max-width:800px) {
+  .search-bar {
+    height: 35%;
+  }
 
+  b {
+    display: none;
+  }
+
+  aside {
+    width: 40%;
+  }
+
+  .Home-Shorts-Sub,
+  .Li-Post-Down {
+    width: 85%;
+    height: 20%;
+    border-bottom: 1px solid var(--gray);
+  }
+
+  .video {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    width: 80%;
+    height: 100%;
+    padding: 3%;
+    color: white;
+    align-self: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .Subscribe {
+    height: 50%;
+  }
+}

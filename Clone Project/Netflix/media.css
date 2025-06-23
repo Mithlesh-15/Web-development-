@@ -1,1 +1,338 @@
+:root {
+  --white: #ffffff;
+  --red: #e50914;
+}
+body,
+html {
+  background-color: #000000;
+  size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui;
+}
+header {
+  width: 100%;
+  height: 90vh;
+  position: relative;
 
+  outline: none;
+}
+.head-content {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.head-background-img {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/af2fac72-d956-4952-8686-4d45d359d78c/web/IN-en-20250526-TRIFECTA-perspective_5db3e163-56f7-47c7-9a65-b79b9d76bf24_large.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: brightness(0.25);
+}
+.netflix-logo {
+  width: 20%;
+  height: 70%;
+  position: relative;
+  right: -10%;
+}
+.language-input {
+  width: 6%;
+  height: 70%;
+  position: relative;
+  right: -60%;
+  border-radius: 0.3rem;
+  color: var(--white);
+  background-color: rgb(15, 18, 15);
+  outline: 0.08rem solid var(--white);
+}
+.sign-in-top {
+  background-color: var(--red);
+  width: 6%;
+  height: 65%;
+  position: relative;
+  right: -62%;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-size: 100%;
+}
+.sign-in-top:hover {
+  transition: 0.3s;
+  background-color: #99151c;
+}
+.head-center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+.head-center-content-p1 {
+  font-size: 360%;
+  color: var(--white);
+  font-weight: 900;
+}
+.head-center-content-p2 {
+  font-size: 370%;
+  color: var(--white);
+  font-weight: 900;
+}
+.head-center-content-p3 {
+  font-size: 110%;
+  color: var(--white);
+}
+.head-center-content-p4 {
+  font-size: 100%;
+  color: var(--white);
+  position: relative;
+  top: 4%;
+}
+.mail-input {
+  width: 44%;
+  height: 15%;
+  position: relative;
+  top: 5%;
+  display: flex;
+}
+.email-input {
+  width: 75%;
+  height: 58%;
+  background-color: rgb(15, 18, 15);
+  padding-left: 2%;
+  outline: 0.14rem solid var(--white);
+  border-radius: 0.3rem;
+  color: var(--white);
+}
+.get-staeted {
+  width: 20%;
+  height: 58%;
+  margin-left: 2%;
+  background-color: var(--red);
+  border: 0.14rem solid var(--white);
+  border-radius: 0.3rem;
+  color: var(--white);
+  font-size: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.get-staeted:hover {
+  transition: 0.3s;
+  background-color: #99151c;
+}
+.design-line {
+  width: 100%;
+  height: 0.15rem;
+  background: linear-gradient(
+    to right,
+    #120f0b,
+    #5e1838,
+    #a82560,
+    #dd0e22,
+    #cc1b44,
+    #b02764,
+    #5e1838,
+    #120f0b
+  );
+  box-shadow: 0rem 0rem 5rem 1rem #192d78;
+}
+
+.movie-list {
+  padding-top: 2%;
+  width: 100%;
+  height: 22rem;
+}
+.movie-list-h {
+  color: var(--white);
+  width: 80%;
+  height: 15%;
+  margin: auto;
+}
+.movie-list-div {
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 80%;
+  margin: auto;
+}
+.movie-list-div::-webkit-scrollbar {
+  display: none;
+}
+.movie {
+  width: 20%;
+  height: 18.5rem;
+  padding: 0 1rem;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+}
+.movie:hover {
+  scale: 103%;
+  transition: 0.1s linear;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.more-details {
+  width: 100%;
+  height: 20rem;
+  margin-top: 3%;
+}
+.reason {
+  color: var(--white);
+
+  width: 80%;
+  height: 15%;
+  margin: auto;
+}
+.reasons {
+  width: 85%;
+  margin: auto;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.reason-tab {
+  padding: 1.4%;
+  height: 90%;
+  width: 20%;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom right, #1a2042, #281c3a, #2e1232);
+  /* background-color: #1a2042; */
+  color: var(--white);
+}
+.reason-head {
+  font-size: 1.2rem;
+  margin-bottom: 7%;
+}
+.reason-p {
+  font-size: 0.9rem;
+}
+.questions {
+  width: 100%;
+  height: 30rem;
+}
+.questions-h {
+  color: var(--white);
+
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  font-size: 2rem;
+}
+.que-div {
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.que {
+  width: 100%;
+  height: 15%;
+  background-color: #2e2e2e;
+  color: var(--white);
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.que:hover {
+  transition: 0.3s;
+  background-color: #474747;
+  cursor: pointer;
+}
+.email {
+  margin-top: 6%;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-in-mail {
+  font-size: 100%;
+  color: var(--white);
+  position: relative;
+  top: 4%;
+}
+.mail-input-footer {
+  width: 44%;
+  height: 15%;
+  position: relative;
+  top: 5%;
+  margin-top: 0.5%;
+  display: flex;
+}
+.email-input-footer {
+  width: 75%;
+  height: 250%;
+  background-color: rgb(15, 18, 15);
+  padding-left: 2%;
+  outline: 0.1rem solid var(--white);
+  border-radius: 0.4rem;
+  color: var(--white);
+}
+.get-staeted-footer {
+  width: 20%;
+  height: 261%;
+  margin-left: 2%;
+  background-color: var(--red);
+  border: 0.14rem solid var(--white);
+  border-radius: 0.3rem;
+  color: var(--white);
+  font-size: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.get-staeted-footer:hover {
+  transition: 0.3s;
+  background-color: #99151c;
+}
+footer {
+  width: 80%;
+  height: 23rem;
+  margin: 5rem auto 0;
+}
+a {
+  color: var(--white);
+}
+.a {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+.f-1 {
+  color: var(--white);
+  margin-bottom: 4%;
+}
+.f-2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  align-items: center;
+  justify-content: center;
+}
+.india {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
